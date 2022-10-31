@@ -1,1 +1,50 @@
-<p>loremasodnpppppppppppppppppppdpajadpsjkdasnkpd</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ehhe post</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+<body>
+    <header class="header">
+  <div class="inner">
+    <div class="header__logo">
+      <span>My blog</span>
+    </div>
+    <div class="header__nav">
+      <ul>
+        <li>
+          <a href="/">Home</a>
+          <a href="/all-post">All Post</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<main>
+    
+<p> Ehhe post </p>
+
+<p> me </p>
+
+<p> this is ehhe desc</p>
+</main>
+    
+    <!-- CMS -->
+    <script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
+</body>
+</html>
