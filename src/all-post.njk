@@ -6,5 +6,6 @@ layout: "base.njk"
 ---
 <a href="/">Go to Home</a>
 {%- for item in collections.post -%}
-    <p>{{ item.data.title }}aaa</p>
+    <b>{{ item.data.title }}</b>
+    <p>{{ item.data.description }}</p>
 {%- endfor -%}
