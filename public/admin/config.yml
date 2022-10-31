@@ -1,11 +1,11 @@
 backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
-media_folder: "/public/assets/images"
-public_folder: "/public/post"
+media_folder: "public/assets/images"
+public_folder: "/assets/images"
 collections:
   - name: "Post"
-    label: "post"
+    label: "src/post"
     create: true
     folder: "post"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
