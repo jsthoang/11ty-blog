@@ -7,6 +7,7 @@ collections:
   - name: "Post"
     label: "post"
     create: true
+    folder: "post"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields: # The fields for each document, usually in front matter
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
